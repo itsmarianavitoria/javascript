@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Novo endereço</title>
+    </head>
+    <body>
+
+
+        <fieldset>
+            <legend>Novo Endereço</legend>
+
+            <form name="endereco">
+
+                <div>
+                    <label for="cep"">CEP: </label><br>
+                    <input type="text" id="cep" name="cep" maxlength="9" onchange="buscarCep()" required>
+                </div>
+
+                <div>
+                    <label for="logradouro"">Logradouro: </label><br>
+                    <input type="text" id="logradouro" name="logradouro">
+                </div>
+
+                <div>
+                    <label for="bairro"">Bairro: </label><br>
+                    <input type="text" id="bairro" name="bairro">
+                </div>
+
+                <div>
+                    <label for="municipio"">Cidade: </label><br>
+                    <input type="text" id="municipio" name="municipio">
+                </div>
+
+                <div>
+                    <label for="estado"">Estado: </label><br>
+                    <input type="text" id="estado" name="estado">
+                </div>
+
+                <br>
+                <button type="submit">Salvar</button>
+
+            </form>
+
+        </fieldset>
+        
+        <script src="aula3.js"></script>
+    </body>
+</html>
